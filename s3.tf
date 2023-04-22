@@ -1,6 +1,6 @@
 resource "aws_s3_bucket" "terraform_state" {
-  bucket = "terraform-up-and-running-state-sk1210"
-   
+  bucket = "terraform-up-state-sk1210"
+
   # Prevent accidental deletion of this S3 bucket
   lifecycle {
     prevent_destroy = true
